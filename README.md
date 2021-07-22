@@ -1,1 +1,1 @@
-Tutorial on how to use GitHub for research projects.
+Tutorial on how to use GitHub for research projects!
