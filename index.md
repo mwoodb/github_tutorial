@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mwoodb/github_tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Step 1: Create an account
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-### Markdown
+2. [Create an account](https://github.com/join)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3. Join the lab organization(s)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Step 2: Create a repository
 
-- Bulleted
-- List
+A repository is essentially a folder to hold all the files for a project and track changes.
 
-1. Numbered
-2. List
+1. Choose a name and write a description.
 
-**Bold** and _Italic_ and `Code` text
+2. Link it to a local folder on your computer.
 
-[Link](url) and ![Image](src)
-```
+> `$ echo "Example of an experiment repo" >> README.md`
+>
+> `$ git init`
+>
+> `$ git add README.md`
+>
+> `$ git commit -m "first commit"`
+>
+> `$ git branch -M main`
+>
+> `$ git remote add origin https://github.com/mwoodb/github_tutorial.git`
+>
+> `$ git push -u origin main`
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+4. Edit your task code and push changes.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mwoodb/github_tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+# Step 3: Work with collaborators
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Invite collaborators to repository.
+
+2. Create a branch for yourself.
+
+> A branch is where you can work on a copy of the code that might not be ready to be in the main version. 
+
+![](https://guides.github.com/activities/hello-world/branching.png)
+
+To make a new branch:
+
+> `$ git checkout -b <new-branch>`
+
+Or to move to an existing one:
+
+> `$ git fetch --all`
+> `$ git checkout <branch-name>`
+
+
+3. Open a pull request.
+
+> To propose your changes and incorporate them into a different branch (e.g. main), you can make a *pull request*. After the request is made you or a collaborator can review the changes and *merge* them into the other branch.
+
+
+# Step 4: Create a project
+
+A project is a way to track issues or milestones.
+
+![](https://github.com/mwoodb/github_tutorial/blob/main/github-project-screenshot.png)
+
+1. Name the project and choose a template
+
+> This will create a board that organizes issues and tasks. 
+>
+> For example, you can have columns like *To Do* and *In progess* that track whether specific issues have been resolved.
+> This can be automated so that when you close an issue it is automatically transferred from *To Do* to *Done*.
+
+2. Create new issues.
+
+> Issues can be anything from bugs to new features that need to be added. These can be assigned to specific projects, milestones, and people.
+
+3. Create milestones.
+
+> Milestones are another way to track progress on a project. For example, when developing a task there could be separate milestones for different versions or different stages of data collection.
+
+
+# Step 5: Publish as a website
+
+
+# Step 6: Saving data to a separate repo on Github
